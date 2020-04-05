@@ -1,0 +1,22 @@
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.container{
+    display: flex;
+    height: 360px;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+}

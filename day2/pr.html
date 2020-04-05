@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./stylePR.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-end">
+        <a href="https://mail.google.com" class="text-box"> Gmail</a>
+        <a href="https://www.google.com/search?q=google&safe=strict&sxsrf=ALeKk01FV3_l4KM9NJQrNl2jU8m0ev1J5A:1585806594012&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjhsN_1hcnoAhUIT30KHUmjBV4Q_AUoAnoECBYQBA&biw=1600&bih=758" class="text-box"> Gambar</a>
+        <a href="#" class="text-box fa fa-th"> </a>
+        <a href="https://mail.google.com" class="email"> I</a>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="container">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+            class="image-brand" />
+    </div>
+    <br />
+    <br />
+    <div  class="container">
+        <input id="search" type="text" class="my-input">
+    </div>
+    <br/>
+    <br/>
+    <div class="container-btn">
+        <input type="button" onclick="searchGoogle()" class="my-btn" value="Google Search" />
+        <input type="button" onclick="window.location.href='https://www.google.com/doodles/'" class="my-btn" value="I'm Feeling Lucky" />
+    </div>
+</body>
+<script>
+    const searchGoogle = () =>{
+        let searchValue = document.getElementById("search").value
+        window.location.href= `https://www.google.com/search?safe=strict&client=firefox-b-e&bih=758&biw=1600&hl=id&sxsrf=ALeKk02aa402lyXmBJcYsSyan5qADQ_fbw%3A1585806834508&source=hp&ei=8n2FXsf7HNPbrQGgyKToBg&q=${searchValue}&oq=${searchValue}&gs_lcp=CgZwc3ktYWIQAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAA6BwgjEOoCECc6BAgjECc6BQgAEIMBOgQIABBDOgcIABCDARBDUJ8PWNUSYP4TaANwAHgAgAFxiAH8A5IBAzIuM5gBAKABAaoBB2d3cy13aXqwAQo&sclient=psy-ab&ved=0ahUKEwjHvLTohsnoAhXTbSsKHSAkCW0Q4dUDCAU&uact=5`
+    }
+</script>
+
+</html>

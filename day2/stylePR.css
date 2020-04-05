@@ -1,0 +1,74 @@
+.my-input{
+    font-size: 16px;
+    padding: 12px;
+    border: 1px solid lightgrey;
+    border-radius: 50px;
+    width: 500px;
+}
+.my-input:hover{
+    
+    -webkit-box-shadow: -2px 1px 5px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 1px 5px -3px rgba(0,0,0,0.75);
+    box-shadow: -2px 1px 5px -3px rgba(0,0,0,0.75);
+}
+
+.email{
+    border-radius: 40px;
+    background-color: cadetblue;
+    color:white;
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 3px 10px 3px 10px;
+    font-size: 15px;
+}
+
+.my-btn{
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: 1px solid rgba(204, 204, 204, 0.63);
+    background-color: rgb(243, 243, 243);
+    margin: 5px;
+}
+
+.my-btn:hover{
+    cursor: pointer;
+    -webkit-box-shadow: -2px 1px 5px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 1px 5px -3px rgba(0,0,0,0.75);
+    box-shadow: -2px 1px 5px -3px rgba(0,0,0,0.75);
+}
+
+.image-brand{
+    width: 250px;
+    height: 100px;
+}
+
+.container{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.container-btn{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-box{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+}
+
+.text-box:hover{
+    text-decoration: underline;
+}
